@@ -1,4 +1,6 @@
   using 2 stack now 
+  
+  
 	public List<Integer> postorderTraversal(TreeNode curr) {
          ArrayList<Integer> postOrder = new ArrayList<>();
             if (curr == null) return postOrder;
@@ -23,6 +25,7 @@
     }
 
 using 1 stack
+	
 	   public ArrayList<Integer> postOrderTrav(Node cur) {
         ArrayList < Integer > postOrder = new ArrayList < > ();
         if (cur == null) return postOrder;
